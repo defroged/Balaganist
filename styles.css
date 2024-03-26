@@ -26,4 +26,32 @@ nav a {
     text-decoration: none;
 }
 
-/* More styles for sections, etc. to come */
+/* ... your existing styles */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0; 
+    background-color: #111; /* Your dark background color */
+    overflow-x: hidden;
+    transition: width 0.5s; /* Smooth opening animation */
+    padding-top: 60px;
+    border: 1px solid cadetblue; 
+}
+
+.main-content {
+    transition: margin-left 0.5s; /* Matches sidenav's transition */
+}
+
+/* When the sidenav is open */ 
+.sidenav.open {
+    width: 250px; 
+}
+
+.main-content.open {
+    margin-left: 250px;
+} 
+
