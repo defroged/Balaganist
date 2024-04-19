@@ -11,6 +11,12 @@ header {
     text-align: center;
 }
 
+header video {
+    width: 100%;  /* Sets the video to take the full width of the header */
+    height: auto; /* Maintains aspect ratio */
+}
+
+
 nav ul {
     list-style: none; /* removes the bullet points */
     padding: 0;
