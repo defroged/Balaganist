@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif; /* Example font, change as you like */
+    font-family: 'Roboto', sans-serif; 
     margin: 0;
     background-color: #111; 
     color: #eee;
@@ -26,7 +26,6 @@ nav a {
     text-decoration: none;
 }
 
-/* ... your existing styles */
 
 .sidenav {
     height: 100%;
@@ -35,18 +34,17 @@ nav a {
     z-index: 1;
     top: 0;
     left: 0; 
-    background-color: #111; /* Your dark background color */
+    background-color: #111; 
     overflow-x: hidden;
-    transition: width 0.5s; /* Smooth opening animation */
+    transition: width 0.5s; 
     padding-top: 60px;
     border: 1px solid cadetblue; 
 }
 
 .main-content {
-    transition: margin-left 0.5s; /* Matches sidenav's transition */
+    transition: margin-left 0.5s; 
 }
 
-/* When the sidenav is open */ 
 .sidenav.open {
     width: 250px; 
 }
@@ -55,3 +53,10 @@ nav a {
     margin-left: 250px;
 } 
 
+.hamburger-icon {
+    position: absolute; /* Or fixed, depending on your layout needs */
+    left: 15px;
+    top: 15px;
+    cursor: pointer;
+    z-index: 3; /* Ensure it's above other elements */
+}
