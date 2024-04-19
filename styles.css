@@ -12,7 +12,7 @@ header {
 }
 
 header video {
-    width: 100%;  /* Sets the video to take the full width of the header */
+    width: 30%;  /* Sets the video to take the full width of the header */
     height: auto; /* Maintains aspect ratio */
 }
 

@@ -11,3 +11,9 @@ function toggleNav() {
         mainContent.style.marginLeft = "250px";
     }
 }
+
+  var video = document.getElementById('loopingVideo');
+  video.onended = function() {
+    video.currentTime = 0;
+    video.play();
+  };
