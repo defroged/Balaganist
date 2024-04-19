@@ -12,18 +12,21 @@ header {
 }
 
 nav ul {
-   list-style: none;
-   padding: 0; 
+    list-style: none; /* removes the bullet points */
+    padding: 0;
+    margin: 0; /* resets any default margins */
+    display: flex; /* starts as horizontal layout */
+    flex-direction: column; /* switches to vertical layout */
 }
 
 nav li {
-    display: inline-block;
-    margin: 0 15px;
+    margin-bottom: 15px; /* adds space between the items */
 }
 
 nav a {
     color: #999;
     text-decoration: none;
+    display: block; /* makes the link fill the space of its list item */
 }
 
 
