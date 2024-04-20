@@ -12,27 +12,26 @@ header {
 }
 
 header video {
-    width: 30%;  /* Sets the video to take the full width of the header */
-    height: auto; /* Maintains aspect ratio */
+    width: 30%;  
+    height: auto; 
 }
 
 
 nav ul {
-    list-style: none; /* removes the bullet points */
+    list-style: none;
     padding: 0;
-    margin: 0; /* resets any default margins */
-    display: flex; /* starts as horizontal layout */
-    flex-direction: column; /* switches to vertical layout */
+    margin: 0;
+    display: block; 
 }
 
 nav li {
-    margin-bottom: 15px; /* adds space between the items */
+    margin-bottom: 15px; 
 }
 
 nav a {
     color: #999;
     text-decoration: none;
-    display: block; /* makes the link fill the space of its list item */
+    display: block; 
 }
 
 
@@ -42,12 +41,12 @@ nav a {
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0; 
-    background-color: #111; 
+    left: 0;
+    background-color: #111;
     overflow-x: hidden;
-    transition: width 0.5s; 
+    transition: width 0.5s;
     padding-top: 60px;
-    border: 1px solid cadetblue; 
+    border: 1px solid cadetblue;
 }
 
 .main-content {
@@ -63,9 +62,9 @@ nav a {
 } 
 
 .hamburger-icon {
-    position: absolute; /* Or fixed, depending on your layout needs */
+    position: absolute; 
     left: 15px;
     top: 15px;
     cursor: pointer;
-    z-index: 3; /* Ensure it's above other elements */
+    z-index: 3; 
 }
